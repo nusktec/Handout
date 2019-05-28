@@ -29,6 +29,7 @@ export default class App extends Component<Props> {
                         initial
                     />
                     <Scene
+                        type='reset'
                         key="signin"
                         navTransparent={true}
                         hideNavBar={true}
